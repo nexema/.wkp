@@ -1,1 +1,1 @@
-{"js":{"version":"1.0.7","packageName":"nexema-generator","steps":["npm pack %packageName%@%version%","npm install -g %packageName%-%version%.tgz --prefix=./js"],"binary":"nexemajsgen"}}
+{"js":{"version":"1.0.7","packageName":"nexema-generator","steps":["npm pack --pack-destination=%outputFolder% %packageName%@%version%","npm install -g %packageName%-%version%.tgz --prefix=%outputFolder%"],"binary":"nexemajsgen"}}
